@@ -1,78 +1,58 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0; 
+    border: 0;
     background-color: grey;
 }
 
-.navbar{
-    color: white;
+*{
+    box-sizing: border-box;
 }
+
+.navbar{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;   
+}
+
+.item{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    float: left;
+    background-color: grey;
+   
+}
+
 
 .rodape{
     color:white;
 }
 
-.navbar1:hover{
-    background-color: black;
+.item:hover{
+    background-color: #554640;
     transition: 0.8s;
 }
 
-.navbar2:hover{
-    background-color: black;
-    transition: 0.8s;
-}
 
-.navbar3:hover{
-    background-color: black;
-    transition: 0.8s;
-}
 
-.navbar4:hover{
-    background-color: black;
-    transition: 0.8s;
-}
 
-.navbar1{
-    width: 25%;
-    text-align: center;
-    height: 25%;
-    float: left;
-    background-color: grey;
-}
-
-.navbar2{
-    width: 25%;
-    float: center;
-    height: 25%;
-    float: left;
-    text-align: center;
-    background-color: grey;
-}
-
-.navbar3{
-    width: 25%;
-    text-align: center;
-    height: 25%;
-    float: left;
-    background-color: grey;
-}
-
-.navbar4{
-    width: 25%;
-    text-align: center;
-    height: 25%;
-    float: left;
-    background-color: grey;
-}
 
 .conteudo{
     overflow: hidden;
+    border-top: 3px solid #CDE6F5;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     float: left;
+    padding-bottom: 1%;
+
 }
 
 .rodape1{
+    
     text-align: center;
     color: black;
 }
@@ -80,4 +60,11 @@ body{
 .rodape2{
     text-align: center;
     color: black;
+}
+
+
+
+.imagem{
+    position: absolute;
+    right: 0.5%;
 }
